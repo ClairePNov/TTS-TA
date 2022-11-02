@@ -21,7 +21,9 @@ body {
 
 .col1,
 .col2,
-.col3 {
+.col3,
+.col4,
+.col5 {
   width: 280px;
   float: left;
   margin: 10px;
@@ -33,6 +35,7 @@ body {
   font-weight: 700;
   letter-spacing: 4px;
   background: white;
+  flex: 1;
 }
 
 #first-paragraph {
@@ -47,11 +50,21 @@ pbody {
   background-color: #ff0000;
 }
 
+#navbar {
+  flex: 1
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: 'Quicksand', sans-serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px rgb(101, 99, 99);
 }
 #green-box {
+  flex: 1;
   background-color: lightgrey;
   width: 300px;
   border: 15px solid green;
@@ -145,4 +158,30 @@ a:active {
 .horizonfirst-tri{
   width: 900px;
 
+}
+
+footer {
+  width: fit-content;
+  flex-direction: row;
+
+}
+
+/* The animation code */
+@keyframes example {
+  0%   {background-color: pink;}
+  25%  {background-color: yellow;}
+  50%  {background-color: orange;}
+  100% {background-color: teal;}
+}
+
+/* The element to apply the animation to */
+#h11 {
+  width: span;
+  height: 100px;
+  background-color: rgb(255, 200, 0);
+  animation-name: example;
+  animation-duration: 8s;
+}
+.img {
+  align: inline;
 }
