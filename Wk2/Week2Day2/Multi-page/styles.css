@@ -185,3 +185,8 @@ footer {
 .img {
   align: inline;
 }
+#nutr-for-mama{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.jumbotron{
+  background-color: #2cefdf!important;}
