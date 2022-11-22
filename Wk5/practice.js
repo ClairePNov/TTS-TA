@@ -1,0 +1,1 @@
+let selectedItem = document.querySelectorAll('h2.highlight')

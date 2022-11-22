@@ -3,6 +3,5 @@ function outer (){
     let b= 5;
     console.log(a,b)
     function inner(){
-        console.log(a)
-        
+        console.log(a);
     }
