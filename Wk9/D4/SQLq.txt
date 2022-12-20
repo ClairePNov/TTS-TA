@@ -1,0 +1,14 @@
+Write down 5 aspects of databases and SQL that you think are important to software and applications. 
+-eliminating redundant entries
+-allowing easy access to databases
+-creating uniform access points to allow cross database  usage
+-time stamp updates allow to go back to previous versions- prior to changes
+-provide consistent logic- allow for more data to be used overall/ easier to use
+
+Write down 5 questions you have on databases and SQL (stay away from syntax at the moment!).
+-is there a way to find * tables that contain a single variable
+    in the wiki ex it was based on books- they created 4 levels of tables to store separate nondependent data
+-does using SQL allow for access across databases-
+-what were the flaws Codd was upset about in SQL
+-are there jobs that are largely based on SQL usage 
+-how do you initiate a database to use the SQL language
